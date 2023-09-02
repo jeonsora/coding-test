@@ -1,2 +1,2 @@
-# programmers-coding-test
+# coding-test
 problem solving
