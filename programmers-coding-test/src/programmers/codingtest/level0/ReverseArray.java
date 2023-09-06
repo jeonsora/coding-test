@@ -12,14 +12,7 @@ public class ReverseArray {
         for(int i=0; i<num_list.length; i++){
             answer[i]=num_list[(num_list.length-1)-i];
         }
-        System.out.println(Arrays.toString(answer));
-
+        System.out.println("ReverseArray : "+Arrays.toString(answer));
         return answer;
     }
-
-    public static void main(String[] args) {
-        int[] num_list={1, 1, 1, 1, 1, 2};
-        solution(num_list);
-    }
-
 }
